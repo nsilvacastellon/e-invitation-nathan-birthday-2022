@@ -1,0 +1,373 @@
+
+*, *::before, *::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3125rem;
+    line-height: 1.2;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+.container {
+
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+    /* border: 2px #ff0000 solid; */
+}
+
+.parallax-text {
+    /* background-color: rgba(255, 255, 255, .8); */
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .heading-text-dark {
+    background-color: rgba(0, 48, 73, .7);
+    color: white;
+  }
+
+  .heading-text-light {
+    background-color: rgba(214, 40, 40, .8);
+    color: rgba(212, 137, 118);
+  }
+
+.parallax1 {
+    background: url('NATHAN-1.jpg') no-repeat;
+    background-position: center bottom 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section1 {
+      text-align: center;
+      background: rgb(214, 40, 40);
+      color: white;
+  }
+
+  .baby {
+      font-size: 4rem;
+      animation: baby 2s ease-in-out infinite alternate;
+  }
+
+  .section2 {
+    text-align: center;
+    background: rgba(0, 48, 73);
+    color: white;
+}
+
+  .parallax2 {
+    background: url('NATHAN-2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(212, 137, 118);
+  }
+
+  .parallax2-h2 {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .car {
+    font-size: 4rem;
+    animation: baby 2s ease-in-out infinite alternate;
+  }
+
+  .parallax3 {
+    background: url('NATHAN-3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(212, 137, 118);
+  }
+
+  .parallax3-h2 {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .crown {
+    animation: crown 2s ease-in-out infinite alternate;
+    font-size: 4rem;
+  }
+
+  .section3 {
+    text-align: center;
+    background: rgba(214, 40, 40);
+    color: white;
+}
+
+.users {
+    font-size: 5rem;
+    animation: baby 2s ease-in-out infinite alternate;
+}
+
+.parallax4 {
+    background: url('NATHAN-4.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(212, 137, 118);
+  }
+
+  .parallax4-h2 {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .gift {
+    font-size: 4rem;
+    animation: crown 2s ease-in-out infinite alternate;
+  }
+
+  .section4 {
+    text-align: center;
+    background: rgba(0, 48, 73);
+    color: white;
+}
+
+.parallax5 {
+  background: url('NATHAN-5.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(212, 137, 118);
+}
+
+.parallax5-h2 {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2rem;
+  text-align: center;
+}
+
+.parallax5-p {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.parallax5-p a {
+    text-decoration: none;
+    color: white;
+}
+
+.calendar {
+    font-size: 4rem;
+    animation: baby 2s ease-in-out infinite alternate;
+}
+
+.month, .date, .day {
+    display: block;
+}
+
+.day {
+    font-size: 2rem;
+}
+
+.month {
+    font-size: 2rem;
+}
+
+.location {
+  font-size: 4rem;
+  animation: baby 2s ease-in-out infinite alternate;
+}
+
+.section5 {
+    text-align: center;
+    background: rgba(214, 40, 40);
+    color: white;
+    font-size: 2rem;
+}
+
+.heart {
+
+  font-size: 5rem;
+  animation: baby2 1s ease-in-out infinite alternate;
+}
+
+.section6 {
+  text-align: center;
+  background: rgba(0, 48, 73);
+  color: white;
+  font-size: 2rem;
+}
+
+.mask {
+  font-size: 5rem;
+  display: block;
+}
+
+.parallax6 {
+  background: url('NATHAN-8.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*height: 37.5rem; /*   SET HIGHT TO SEE EFFECT */
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(212, 137, 118);
+}
+
+.parallax6-h2 {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2rem;
+  text-align: center;
+}
+
+.parallax6-p {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.days-container, .hours-container, .minutes-container, .seconds-container {
+  background-color: rgba(0, 48, 73);
+  color: white;
+  padding: 1.5rem;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 10%;
+}
+
+#time-up {
+  display: none;
+}
+
+
+@keyframes crown {
+
+    0%{ transform: rotate(0deg);}
+    
+    50%{ transform: rotate(10deg); }
+    
+    100%{ transform: rotate(-10deg);}
+    
+}
+
+@keyframes baby {
+
+    0%{ transform: scale(.9);}
+        
+     /* 50%{ transform: scale(.6); } */
+        
+    100%{ transform: scale(1);}
+        
+}
+
+@keyframes baby2 {
+
+  0%{ transform: scale(.8);}
+      
+   /* 50%{ transform: scale(.6); } */
+      
+  100%{ transform: scale(1);}
+      
+}
+
+@keyframes flying {
+
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(10px, 15px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .parallax1 {
+        background-position: center;
+      }
+
+      .parallax-text {
+        font-size: 5rem;
+        padding: 3rem;
+      }
+
+    
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    
+  
+
+}
+
+@media screen and (min-width: 1250px) {
+
+  .container {
+
+    max-width: 1250px;
+    
+}
+
+    
+
+    
+}
